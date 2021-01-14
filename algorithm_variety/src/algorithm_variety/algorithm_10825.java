@@ -34,11 +34,11 @@ public class algorithm_10825 {
 							return s1[0].compareTo(s2[0]);
 						}
 						else {
-							return Integer.parseInt(s2[3])-Integer.parseInt(s1[3]);
+							return Integer.parseInt(s2[3])-Integer.parseInt(s1[3]); //내림차순 
 						}
 					}
 					else {
-						return Integer.parseInt(s1[2])-Integer.parseInt(s2[2]);
+						return Integer.parseInt(s1[2])-Integer.parseInt(s2[2]); // 오름차순 
 					}
 				}
 				return Integer.parseInt(s2[1])-Integer.parseInt(s1[1]);
