@@ -19,7 +19,7 @@ public class algorithm_2609 {
 	        int lcm = getLCM(a, b, gcd);
 	        
 	        System.out.println(gcd);
-	        System.out.println();
+	        System.out.println(lcm);
 	 }
 	 public static int getGCD(int a, int b) {
 		 while(b>0) {
